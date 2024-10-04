@@ -11,7 +11,7 @@ public class TemplateController {
 
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("username", "Joe Shmo");
+        model.addAttribute("username", "Joe No");
         return "pages/home";
     }
 
